@@ -5,7 +5,7 @@ local redraw_timer=function(player,time)
     local minutes=total_minutes % 60
     local hours=math.floor(total_minutes/60)
 
-    local time_string=string.format("%02d:%02d:%.2f",hours,minutes,seconds)
+    local time_string=string.format("%02d:%02d:%05.2f",hours,minutes,seconds)
 
     local timer_hud_id=player:get_meta():get_int("speedrun_timer_hud_id")
     if player:hud_get(timer_hud_id) and player:hud_get(timer_hud_id).name=="speedrun_timer" then
