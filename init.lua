@@ -46,6 +46,10 @@ minetest.register_globalstep(function(dtime)
     end
 end)
 
+minetest.register_on_joinplayer(function(player)
+    local timer_value=player:get_meta():get_float("speedrun_timer_value")
+    redraw_timer(player,timer_value)
+end)
 
 minetest.register_chatcommand("stop",{
     description="Stop the speedrun timer",
