@@ -1,4 +1,4 @@
-# speedrun_timer
+# Speedrun Timer
 A minetest mod which adds a timer for speedrunning games
 
 ## How to use
@@ -17,9 +17,9 @@ The timer can also be controlled via chatcommands.
 
 `/start` - Starts the timer if it was paused.
 
-## Lisence
+## License
 
-This mod is lisenced under the MIT lisence, a copy of which is included in the file named `LISENCE`
+This mod is licensed under the MIT license, a copy of which is included in the file named `LICENSE`
 
 `/stop` - Pauses the timer.
 
