@@ -17,9 +17,9 @@ The timer can also be controlled via chatcommands.
 
 `/start` - Starts the timer if it was paused.
 
+`/stop` - Pauses the timer.
+
 ## License
 
 This mod is licensed under the MIT license, a copy of which is included in the file named `LICENSE`
-
-`/stop` - Pauses the timer.
 
